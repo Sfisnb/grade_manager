@@ -57,6 +57,15 @@ def show_all():
         else:
             print("  暂无成绩")
 
+def delete_student(name):
+    """删除一个学生"""
+    if name in students:
+        del students[name]
+        print(f"学生{name} 已删除")
+    else:
+        print(f"学生{name} 不存在")
+
+
 def main():
     """主菜单程序"""
     while True:
@@ -67,6 +76,7 @@ def main():
         print("3.查看学生平均分")
         print("4.显示所有学生")
         print("5.退出")
+        print("6.删除学生")
         print("="*30)
 
         choice = input("请选择操作（1-5）：")
@@ -93,6 +103,10 @@ def main():
         elif choice == "5":
             print("感谢使用，再见！")
             break
+
+        elif choice == "6":
+            name = input("请输入要删除的学生姓名：")
+            delete_student(name)
 
         else:
             print("无效选择，请重新输入")

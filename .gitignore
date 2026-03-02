@@ -1,0 +1,32 @@
+# 练习文件
+continue和break关键字控制循环体.py
+for循环嵌套.py
+for循环的九九乘法表.py
+for循环的变量作用域.py
+learn1.py
+learn2.py
+learn3.py
+learn4.py
+learn5.py
+learn6.py
+learn7.py
+learn8.py
+learn9.py
+learn10.py
+learn11.py
+main.py
+project1.py
+range语句.py
+work1.py
+work2.py
+work3.py
+work4.py
+work5.py
+work6.py
+
+# PyCharm 配置文件
+.idea/
+
+# Python 缓存
+__pycache__/
+*.pyc
